@@ -1,0 +1,24 @@
+{
+  "name": "gommage",
+  "version": "1.0.0",
+  "description": "Backend systems require precise execution of time-based tasks at scale. Traditional schedulers fail under high load and distributed environments. Build a high-throughput distributed scheduler ensuring exactly-once execution with minimal delay.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaes250/Gommage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaes250/Gommage/issues"
+  },
+  "homepage": "https://github.com/aaes250/Gommage#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1"
+  }
+}
