@@ -69,6 +69,13 @@
   flex: 1;
 }
 
+.nav-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .nav-item {
   display: flex;
   align-items: center;
@@ -501,6 +508,12 @@
   background: rgba(255, 0, 0, 0.1);
 }
 
+.status-badge--failed {
+  color: #f00;
+  border-color: #f00;
+  background: rgba(255, 0, 0, 0.1);
+}
+
 /* ── Delete Button ── */
 .delete-btn {
   display: flex;
@@ -675,6 +688,17 @@
   gap: 16px;
   padding: 60px 20px;
   opacity: 0.6;
+}
+
+.placeholder-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 0, 22, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  border-radius: 50%;
 }
 
 .placeholder-text {
